@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;  
+  background-color: #1A3950;
+}
+
+p {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.nocursor {  
+  width:128x;
+  height:128px;
+  cursor: url('amiga_wb1_normal.cur'),            /* Modern browsers    */
+          url('style/amiga_wb1_normal.cur'),      /* Internet Explorer  */
+          default;
+}
+
+  
+#instructions {
+  color: #1A3950;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: 200;
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  letter-spacing: 1px;
+}
+
+
+.planet {
+	cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC),auto;
+}
+
+.trail { /* className for the trail elements */
+    position: absolute;
+    height: 6px; width: 6px;
+    border-radius: 3px;
+    background: white;    
+}
