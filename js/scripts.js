@@ -1,6 +1,6 @@
 // dots is an array of Dot objects,
 // mouse is an object used to track the X and Y position
-   // of the mouse, set with a mousemove event listener below
+// of the mouse, set with a mousemove event listener below
 var dots = [],
     mouse = {
       x: 0,
@@ -18,8 +18,9 @@ var Dot = function() {
     return n;
   }());
 };
+
 // The Dot.prototype.draw() method sets the position of 
-  // the object's <div> node
+// the object's <div> node
 Dot.prototype.draw = function() {
   this.node.style.left = this.x + "px";
   this.node.style.top = this.y + "px";
@@ -34,7 +35,7 @@ for (var i = 0; i < 24; i++) {
 // This is the screen redraw function
 function draw() {
   // Make sure the mouse position is set everytime
-    // draw() is called.
+  // draw() is called.
   var x = mouse.x,
       y = mouse.y;
   

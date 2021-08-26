@@ -1,11 +1,25 @@
+/* Including one css file into other */
+/* @import "https://fonts.googleapis.com/css2?family=Crimson+Pro"; */
+/* @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Oxygen+Mono&family=Share+Tech+Mono&display=swap');
+
+
 body {
   margin: 0;
   padding: 0;  
-  background-color: #1A3950;
+  /* background-color: #1A3950; */
+  background-color: #112255;
 }
 
-p {
-  font-family: "Lucida Console", "Courier New", monospace;
+* {
+  
+  /* font-family: "Lucida Console", "Courier New", monospace; */
+  /* font-family: 'Crimson Pro', serif; */
+  /* font-family: 'VT323', monospace; */
+  font-family: 'Azeret Mono', monospace;
+  /* font-family: 'IBM Plex Mono', 'Oxygen Mono','Share Tech Mono', monospace; */
+  color: #EAEAE6;
+  -webkit-text-stroke: 0.1px #000043;
 }
 
 .nocursor {  
