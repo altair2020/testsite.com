@@ -1,25 +1,35 @@
 /* Including one css file into other */
-/* @import "https://fonts.googleapis.com/css2?family=Crimson+Pro"; */
-/* @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Oxygen+Mono&family=Share+Tech+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Oxygen+Mono&family=Share+Tech+Mono&family=VT323&display=swap');
 
 body {
   margin: 0;
   padding: 0;  
-  /* background-color: #1A3950; */
-  background-color: #112255;
+  background-color: #1A3950;
+  /* background-color: #112255;   */  
 }
 
 * {
-  
-  /* font-family: "Lucida Console", "Courier New", monospace; */
-  /* font-family: 'Crimson Pro', serif; */
-  /* font-family: 'VT323', monospace; */
-  font-family: 'Azeret Mono', monospace;
-  /* font-family: 'IBM Plex Mono', 'Oxygen Mono','Share Tech Mono', monospace; */
-  color: #EAEAE6;
-  -webkit-text-stroke: 0.1px #000043;
+  font-family: 'Azeret Mono', 'IBM Plex Mono', 'Oxygen Mono','Share Tech Mono', monospace;
+  color: #F1F0EE;
+  text-shadow: 0 0 2px #000;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }
 
 .nocursor {  
